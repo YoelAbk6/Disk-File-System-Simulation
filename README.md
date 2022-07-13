@@ -1,7 +1,7 @@
 # Disk-File-System-Simulation
 
 
-==Description==
+## Description
 The program is a simulation of disk file system management in the Index Allocation method.
 Index Allocation is a method in which the disk is virtually divided into even blocks and each file has its index block - a block that keeps the location of all the file blocks. In this simulation we will be able to have only one index block for each file, therefore, the maximal file size is block_size^2.
 In this program, the "Disk" is a file in our system, that contains one folder only, and all the files will be created under it.
@@ -31,16 +31,16 @@ fsDisk has 8 main functions:
 Another function that we use in this program is decToBinary which has been given and helps us represent an integer as a char to be able to save the indexes of the blocks using one char in the index block.
 
 
-==Program Files==
+## Program Files
 ex7_final_proj.2021.cpp - contains the main, the 3 classes and the methods implementations
 README.txt
 
-==How to compile?==
+## How to compile?
 compile: g++ ex7_final_proj.2021.cpp -o temp
 run: ./temp
 
-==Input:==
+## Input:
 The user needs to choose a number from the menu, and then enter the required parameters such as fd, file name, or length
 
-==Output:==
+## Output:
 Writes data to the file created as the disk. It also outputs the requested data to the user.
