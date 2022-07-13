@@ -33,10 +33,10 @@ Another function that we use in this program is decToBinary which has been given
 
 ## Program Files
 ex7_final_proj.2021.cpp - contains the main, the 3 classes and the methods implementations
-README.txt
 
 ## How to compile?
 compile: g++ ex7_final_proj.2021.cpp -o temp
+
 run: ./temp
 
 ## Input:
